@@ -1,0 +1,187 @@
+{
+  "project_info": {
+    "project_number": "1024731828122",
+    "firebase_url": "https://brightgas-ca568.firebaseio.com",
+    "project_id": "brightgas-ca568",
+    "storage_bucket": "brightgas-ca568.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024731828122:android:210d3c67943799d6",
+        "android_client_info": {
+          "package_name": "com.pertamina.brightgas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1024731828122-g67556bt2vferiojglnd0418dvho023o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pertamina.brightgas",
+            "certificate_hash": "cc65e4b2ebd50ec3aa43f962fb40757ffb33c83a"
+          }
+        },
+        {
+          "client_id": "1024731828122-pvmrgac6vj18ja2r45gk3lssv5m9biqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCssjwMWvAIzVMqkZjCyYOJb4K33K-MOCc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1024731828122-pvmrgac6vj18ja2r45gk3lssv5m9biqe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024731828122:android:ea0c0dc5f8a4b768",
+        "android_client_info": {
+          "package_name": "com.pertamina.brightgasse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1024731828122-l7ff9ocqmlsvmtnrs8ms7htgt40h7mvs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pertamina.brightgasse",
+            "certificate_hash": "cc65e4b2ebd50ec3aa43f962fb40757ffb33c83a"
+          }
+        },
+        {
+          "client_id": "1024731828122-pvmrgac6vj18ja2r45gk3lssv5m9biqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCssjwMWvAIzVMqkZjCyYOJb4K33K-MOCc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1024731828122-pvmrgac6vj18ja2r45gk3lssv5m9biqe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024731828122:android:d7158b1cab97c53f",
+        "android_client_info": {
+          "package_name": "com.pertamina.brightgasagen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1024731828122-qpr9t7etpgochn52r3l0v47tvnh6sofi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pertamina.brightgasagen",
+            "certificate_hash": "cc65e4b2ebd50ec3aa43f962fb40757ffb33c83a"
+          }
+        },
+        {
+          "client_id": "1024731828122-pvmrgac6vj18ja2r45gk3lssv5m9biqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCssjwMWvAIzVMqkZjCyYOJb4K33K-MOCc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1024731828122-pvmrgac6vj18ja2r45gk3lssv5m9biqe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024731828122:android:ce692e5e10db351a",
+        "android_client_info": {
+          "package_name": "com.pertamina.brightgasdriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1024731828122-q7029e73u76s45omkhokj6i0seie511d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pertamina.brightgasdriver",
+            "certificate_hash": "cc65e4b2ebd50ec3aa43f962fb40757ffb33c83a"
+          }
+        },
+        {
+          "client_id": "1024731828122-pvmrgac6vj18ja2r45gk3lssv5m9biqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCssjwMWvAIzVMqkZjCyYOJb4K33K-MOCc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1024731828122-pvmrgac6vj18ja2r45gk3lssv5m9biqe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

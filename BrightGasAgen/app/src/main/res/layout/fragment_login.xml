@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_primary_vertical"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/loginpadding"
+    android:paddingRight="@dimen/loginpadding">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_marginBottom="@dimen/loginpadding"
+        android:scaleType="centerInside"
+        android:src="@drawable/brightgas_logo" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_rectangle_edittext"
+        android:hint="Nama Pengguna"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress"
+        android:singleLine="true"
+        android:text="agent@pertamina.co.id"
+        android:theme="@style/EditTextPrimary" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:background="@drawable/ic_rectangle_edittext"
+        android:hint="Kata Sandi"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:text="123456"
+        android:theme="@style/EditTextPrimary" />
+
+    <TextView
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:background="@drawable/ic_rectangle_loginbuttonbg"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="@dimen/buttonpadding"
+        android:text="Login"
+        android:textColor="@color/colorWhite" />
+
+</LinearLayout>

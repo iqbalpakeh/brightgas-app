@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">Bright Gas Agen</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="crash_dialog_text">Bro, please send the error message to gumelar teja\'s email. Just click the ok button</string>
+    <string name="crash_dialog_title">Bright Gas Agen Has Fallen</string>
+    <string name="kodekupon"><i>Kode kupon</i></string>
+
+    <string-array name="inspectionreportdetailstatus">
+        <item>Status</item>
+        <item>Clean</item>
+        <item>Not Clean</item>
+    </string-array>
+
+    <string name="str_Login_gagal">Login gagal</string>
+    <string name="str_Query_gagal">Query gagal</string>
+
+</resources>

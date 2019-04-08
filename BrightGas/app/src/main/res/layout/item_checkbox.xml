@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/activity_quarter_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_rectangle_verylightgray_white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="1dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_quarter_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_quarter_margin">
+
+            <TextView
+                android:id="@+id/my_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PESAN TABUNG &amp; ISI"
+                android:textColor="@color/pinkdark"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Harga Rp 57.500/tabung"
+                android:textColor="@color/edittextgraytextactive"
+                android:textSize="10sp" />
+            <!--<CheckBox-->
+            <!--android:id="@+id/mycheckbox"-->
+            <!--android:layout_width="@dimen/checkboxsize"-->
+            <!--android:layout_height="@dimen/checkboxsize"-->
+            <!--style="@android:style/Widget.CompoundButton.RadioButton"/>-->
+        </LinearLayout>
+        <!--<View-->
+        <!--android:layout_marginLeft="@dimen/activity_horizontal_margin"-->
+        <!--android:layout_marginRight="@dimen/activity_horizontal_margin"-->
+        <!--android:layout_marginBottom="@dimen/activity_quarter_margin"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:background="@color/verylighticontint"/>-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingBottom="@dimen/activity_half_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_quarter_margin">
+            <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textColor="@color/edittextgraytextactive"-->
+            <!--android:textSize="17sp"-->
+            <!--android:text="Banyaknya"/>-->
+            <TextView
+                android:id="@+id/action_minus"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/ic_rectangle_pesanitembg"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="-"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/quantity"
+                android:layout_width="72dp"
+                android:layout_height="24dp"
+                android:gravity="center"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/action_plus"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/ic_rectangle_pesanitembg"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="+"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/additional_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:text="Lusin"
+                android:textColor="@color/edittextgraytextactive"
+                android:textSize="17sp"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

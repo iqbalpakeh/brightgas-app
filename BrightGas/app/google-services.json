@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1024731828122",
+    "firebase_url": "https://brightgas-ca568.firebaseio.com",
+    "project_id": "brightgas-ca568",
+    "storage_bucket": "brightgas-ca568.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024731828122:android:210d3c67943799d6",
+        "android_client_info": {
+          "package_name": "com.pertamina.brightgas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1024731828122-g67556bt2vferiojglnd0418dvho023o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pertamina.brightgas",
+            "certificate_hash": "cc65e4b2ebd50ec3aa43f962fb40757ffb33c83a"
+          }
+        },
+        {
+          "client_id": "1024731828122-pvmrgac6vj18ja2r45gk3lssv5m9biqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCssjwMWvAIzVMqkZjCyYOJb4K33K-MOCc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1024731828122-pvmrgac6vj18ja2r45gk3lssv5m9biqe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

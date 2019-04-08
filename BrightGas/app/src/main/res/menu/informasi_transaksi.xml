@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/memberactionmore" android:title="more"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_more_vertical_24dp">
+        <menu>
+            <item android:id="@+id/reschedule"
+                android:title="Jadwal Ulang"
+                android:icon="@drawable/ic_calendar"
+                app:showAsAction="never" />
+            <item android:id="@+id/cancel"
+                android:title="Cancel"
+                android:icon="@drawable/ic_calendar_with_letter_x"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="EditTextWhite">
+        <item name="colorControlNormal">@color/colorWhite</item>
+        <item name="android:textColorPrimary">@color/colorWhite</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textColorHint">@color/colorWhite</item>
+        <item name="android:colorControlNormal">@color/colorWhite</item>
+    </style>
+
+    <style name="EditTextGray">
+        <item name="colorControlNormal">@color/colorIconDark</item>
+        <item name="android:textColorPrimary">@color/colorIconDark</item>
+        <item name="android:textColor">@color/colorIconDark</item>
+        <item name="android:textColorHint">@color/colorIconDark</item>
+        <item name="android:colorControlNormal">@color/colorIconDark</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>

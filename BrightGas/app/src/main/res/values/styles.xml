@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+        <item name="colorControlNormal">@color/beligrey</item>
+        <!--<item name="android:editTextStyle">@style/EditTextGray</item>-->
+    </style>
+
+    <style name="EditTextPrimary">
+        <item name="colorControlNormal">@color/edittextprimarycolor</item>
+        <item name="android:textColorPrimary">@color/edittextprimarycolor</item>
+        <item name="android:textColor">@color/edittextprimarycolor</item>
+        <item name="android:textColorHint">@color/edittextprimarycolor</item>
+        <item name="android:background">@drawable/ic_rectangle_edittext</item>
+        <item name="android:padding">@dimen/activity_half_margin</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="EditTextWhite">
+        <item name="colorControlNormal">@color/colorWhite</item>
+        <item name="android:textColorPrimary">@color/colorWhite</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textColorHint">@color/colorWhite</item>
+    </style>
+
+    <style name="EditTextGray">
+        <item name="colorControlActivated">@color/colorPrimary</item>
+        <item name="colorControlNormal">@color/edittextgrayline</item>
+        <item name="android:textColorPrimary">@color/edittextgraytextactive</item>
+        <item name="android:textColor">@color/edittextgraytextactive</item>
+        <item name="android:textColorHint">@color/edittextgraytextinactive</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ThemeFullscreen" parent="AppTheme">
+        <item name="android:windowFullscreen">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">#5fa3d0</item>
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="android:background">#FFFFFF</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

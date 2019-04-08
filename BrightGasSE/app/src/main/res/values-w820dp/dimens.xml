@@ -1,0 +1,25 @@
+<resources>
+    <!-- Example customization of dimensions originally defined in res/values/dimens.xml
+         (such as screen margins) for screens with more than 820dp of available width. This
+         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively). -->
+    <dimen name="activity_horizontal_margin">24dp</dimen>
+    <dimen name="activity_half_margin">12dp</dimen>
+    <dimen name="activity_quarter_margin">6dp</dimen>
+    <dimen name="login_logo_width">45dp</dimen>
+    <dimen name="login_logo_height">60dp</dimen>
+    <dimen name="login_logo_margin">15dp</dimen>
+    <dimen name="menu_pic_size">90dp</dimen>
+    <dimen name="nav_header_vertical_spacing">24dp</dimen>
+    <dimen name="nav_header_height">240dp</dimen>
+    <dimen name="notif_count_size">60dp</dimen>
+    <dimen name="job_item_pic_size">75dp</dimen>
+    <dimen name = "middle_padding">15dp</dimen>
+    <dimen name = "little_padding">7dp</dimen>
+    <dimen name="regular_job_item_height">120dp</dimen>
+    <dimen name="small_font">15sp</dimen>
+    <dimen name="detail_image_height">450dp</dimen>
+    <dimen name="home_banner_height">255dp</dimen>
+    <dimen name="overtime_detail_height">450dp</dimen>
+    <dimen name="loginpadding">105dp</dimen>
+</resources>
+

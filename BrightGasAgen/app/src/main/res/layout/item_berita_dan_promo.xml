@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/pesanbannerline"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_quarter_margin"
+        android:paddingRight="@dimen/activity_quarter_margin">
+        <TextView
+            android:id="@+id/mytitle"
+            android:padding="@dimen/activity_quarter_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:textStyle="bold"
+            android:textColor="@color/beritadanpromotitle"
+            android:text="Pertamina Science Fun Fair 2016: Tumbuhkan Cinta Sains Sejak Dini, Lahirkan Saintis Masa Depan" />
+        <TextView
+            android:id="@+id/date"
+            android:padding="@dimen/activity_quarter_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/berhasilgrey"
+            android:text="13 Okt 2016" />
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/verylighticontint"
+            android:src="@drawable/ic_brightgas_logo"
+            android:scaleType="centerInside"/>
+        <TextView
+            android:id="@+id/content"
+            android:padding="@dimen/activity_quarter_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:maxLines="3"
+            android:ellipsize="end"
+            android:textColor="@color/berhasilgrey"
+            android:text="PT Pertamina (Persero) menggelar Pertamina Science Fun Fair untuk menanamkan cinta sains sejak dini, melalui edukasi dan kompetisi sains" />
+    </LinearLayout>
+</LinearLayout>

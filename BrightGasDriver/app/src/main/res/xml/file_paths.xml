@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF9800</color>
+    <color name="colorPrimaryDark">#E65100</color>
+    <color name="colorAccent">#0288D1</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorIconDark">#404040</color>
+    <color name="colorDarkBg">#212121</color>
+    <color name="LightOptionBgAlpha">#FFEEEEEE</color>
+    <color name="OptionBgAlpha">#33000000</color>
+    <color name="IconTint">#999999</color>
+    <color name="ColorHeaderGrey">#8f8f8f</color>
+</resources>

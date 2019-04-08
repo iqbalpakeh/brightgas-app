@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_house"
+            android:tint="@color/edittextgraytextactive"
+            android:title="Dashboard" />
+
+        <item
+            android:id="@+id/nav_order_list"
+            android:icon="@drawable/ic_file"
+            android:tint="@color/edittextgraytextactive"
+            android:title="Transaksi" />
+
+        <item
+            android:id="@+id/nav_list_agen"
+            android:icon="@drawable/ic_user"
+            android:tint="@color/edittextgraytextactive"
+            android:title="Agen" />
+
+        <item
+            android:id="@+id/nav_kotak_masuk"
+            android:icon="@drawable/ic_email"
+            android:tint="@color/edittextgraytextactive"
+            android:title="Kotak Masuk" />
+
+        <item
+            android:id="@+id/nav_kontak_pertamina"
+            android:icon="@drawable/ic_phone_symbol_of_an_auricular_inside_a_circle"
+            android:tint="@color/edittextgraytextactive"
+            android:title="Hubungi Kami" />
+
+        <item
+            android:id="@+id/nav_pusat_bantuan"
+            android:icon="@drawable/ic_question"
+            android:tint="@color/edittextgraytextactive"
+            android:title="Pusat Bantuan" />
+
+    </group>
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/ic_log_out_symbol"
+        android:tint="@color/edittextgraytextactive"
+        android:title="Keluar" />
+</menu>

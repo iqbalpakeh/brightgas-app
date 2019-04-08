@@ -1,0 +1,27 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_half_margin">8dp</dimen>
+    <dimen name="activity_quarter_margin">4dp</dimen>
+    <dimen name="login_logo_width">30dp</dimen>
+    <dimen name="login_logo_height">40dp</dimen>
+    <dimen name="login_logo_margin">10dp</dimen>
+    <dimen name="menu_pic_size">60dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="notif_count_size">40dp</dimen>
+    <dimen name="job_item_pic_size">50dp</dimen>
+    <dimen name = "middle_padding">10dp</dimen>
+    <dimen name = "little_padding">5dp</dimen>
+    <dimen name="regular_job_item_height">80dp</dimen>
+    <dimen name="create_damage_report_add_image_size">100dp</dimen>
+    <dimen name="small_font">10sp</dimen>
+    <dimen name="detail_image_height">300dp</dimen>
+    <dimen name="home_banner_height">170dp</dimen>
+    <dimen name="overtime_detail_height">300dp</dimen>
+    <dimen name="loginpadding">70dp</dimen>
+    <dimen name="takepicturepadding">50dp</dimen>
+    <dimen name="buttonpadding">12dp</dimen>
+    <dimen name="checkboxsize">28dp</dimen>
+</resources>

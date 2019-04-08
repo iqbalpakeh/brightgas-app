@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:background="@drawable/ic_circle_border"
+                android:backgroundTint="@color/verylighticontint"
+                android:padding="@dimen/takepicturepadding"
+                android:src="@drawable/ic_photo_camera__1_"
+                android:tint="@color/lighticontint" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_picture"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:scaleType="centerCrop"
+                app:civ_border_color="#FF424242"
+                app:civ_border_width="2dp" />
+
+        </FrameLayout>
+
+        <EditText
+            android:id="@+id/nomor_handphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:hint="Nomor Handphone"
+            android:inputType="phone"
+            android:theme="@style/EditTextGray" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:theme="@style/EditTextGray" />
+
+        <EditText
+            android:id="@+id/kata_sandi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:drawableRight="@drawable/ic_eye"
+            android:drawableTint="@color/edittextgrayline"
+            android:hint="Kata Sandi"
+            android:inputType="textPassword"
+            android:theme="@style/EditTextGray" />
+
+        <EditText
+            android:id="@+id/ulangi_kata_sandi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:drawableRight="@drawable/ic_eye"
+            android:drawableTint="@color/edittextgrayline"
+            android:hint="Ulangi Kata Sandi"
+            android:inputType="textPassword"
+            android:theme="@style/EditTextGray" />
+
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:background="@drawable/ic_rectangle_accent"
+            android:clickable="true"
+            android:gravity="center"
+            android:padding="@dimen/buttonpadding"
+            android:text="REGISTER"
+            android:textAllCaps="true"
+            android:textColor="@color/colorWhite" />
+
+    </LinearLayout>
+
+</ScrollView>

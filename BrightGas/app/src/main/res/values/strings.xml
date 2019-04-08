@@ -1,0 +1,24 @@
+<resources>
+
+    <string name="app_name">Bright Gas</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="crash_dialog_text">Bro, please send the error message to gumelar teja\'s email. Just click the ok button</string>
+    <string name="crash_dialog_title">Bright Gas Has Fallen</string>
+    <string name="kode_kupon"><i>Kode kupon</i></string>
+    <string name="str_Registrasi_gagal">Registrasi gagal</string>
+    <string name="str_Login_gagal">Login gagal</string>
+    <string name="str_Tambah_alamat_gagal">Tambah alamat gagal</string>
+    <string name="str_Pemesanan_gagal">Pemesanan gagal</string>
+    <string name="str_Service_is_not_available">Service is not available…</string>
+    <string name="str_Invalid_latitude_or_longitude_values">Invalid latitude or longitude values…</string>
+    <string name="str_No_addresses_found">No addresses found…</string>
+    <string name="str_Address_found">Address found…</string>
+
+    <string-array name="inspection_report_detail_status">
+        <item>Status</item>
+        <item>Clean</item>
+        <item>Not Clean</item>
+    </string-array>
+
+</resources>

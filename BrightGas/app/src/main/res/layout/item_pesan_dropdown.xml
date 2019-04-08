@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ic_rectangle_verylightgray_white"
+    android:orientation="vertical"
+    android:padding="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/activity_quarter_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_quarter_margin">
+
+        <TextView
+            android:id="@+id/my_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="PESAN TABUNG &amp; ISI"
+            android:textColor="@color/colorAccent"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/dropdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:src="@drawable/ic_down_arrow_circular_button"
+            android:tint="@color/beligrey" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/trade_in_popup_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="1dp"
+        android:visibility="gone">
+
+        <include
+            android:id="@+id/trade_in_elpiji_3kg"
+            layout="@layout/item_checkbox" />
+
+        <include
+            android:id="@+id/trade_in_ease_gas_9kg"
+            layout="@layout/item_checkbox" />
+
+        <include
+            android:id="@+id/trade_in_joy_cook"
+            layout="@layout/item_checkbox" />
+
+        <include
+            android:id="@+id/trade_in_elpiji_6kg"
+            layout="@layout/item_checkbox" />
+
+    </LinearLayout>
+
+</LinearLayout>
